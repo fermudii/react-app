@@ -1,0 +1,687 @@
+@font-face {
+    font-family: Dosis-Regular;
+    src:  url('../../assets/tipografia/Dosis-Regular.otf');
+}
+@font-face {
+    font-family: Dosis-SemiBold;
+    src:  url('../../assets/tipografia/Dosis-SemiBold.otf')format("opentype");
+  }
+  @font-face {
+    font-family: Dosis-Bold;
+    src:  url('../../assets/tipografia/Dosis-Bold.otf')format("opentype");
+  }
+  @font-face {
+    font-family: Dosis-ExtraBold;
+    src:   url('../..//assets/tipografia/Dosis-ExtraBold.otf')format("opentype");
+  }
+  @font-face {
+    font-family: Dosis-Medium;
+    src:  url('../../assets/tipografia/Dosis-Medium.otf')format("opentype");
+  }
+  @font-face {
+    font-family: Dosis-Light;
+    src:  url('../../assets/tipografia/Dosis-Light.otf')format("opentype");
+  }
+  @font-face {
+    font-family: Dosis-ExtraLight;
+    src:  url('../../assets/tipografia/Dosis-ExtraLight.otf')format("opentype");
+  }
+
+
+.dashboardFondo{
+    background-color:white;
+}
+.ovalo{
+   background-image: url("../../assets//img/niña.png");
+   background-position: right center;
+  
+   /* Background image doesn't tile */
+   background-repeat: no-repeat;
+   
+   /* Background image is fixed in the viewport so that it doesn't move when 
+      the content's height is greater than the image's height */
+   background-attachment: fixed;
+   
+   /* This is what makes the background image rescale based
+      on the container's size */
+   background-size: contain;
+   width: 100%;
+  
+}
+
+.tituloContenido{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3em;
+}
+
+.subtituloContenido{
+    font-family: Montserrat-Bold;
+    font-size: 1.3em;
+    color: #868787;
+}
+
+.logoBoton{
+  margin-left: 40%; 
+}
+.logoinicio{
+    width: 250%; 
+}
+.logoinicioResponsive{
+    width: 100%;
+}
+
+@media screen and (min-width: 300px) and (max-width: 600px) {   
+    .logoBoton{
+        margin-left: 2em; 
+      }
+    .btnEmpezar{
+        margin-left: .5em;
+    }
+}
+
+.btnEmpezar{
+    width: 100%;
+    background-color: #440d70;
+    border-color: transparent;
+    border-radius: .8em;
+    text-align: center;
+    font-family: Dosis-ExtraLight;
+    color: white;
+    font-weight: bold;
+    margin-left: 71%;
+    margin-bottom: 50%;
+}
+.btnEmpezar:hover{
+    background-color: #f89e18;
+    border-color: #F6B451;
+    color: white;
+}
+
+.btnEmpezar2{
+    width: 100%;
+    background-color: #440d70;
+    border-color: transparent;
+    border-radius: .8em;
+    text-align: center;
+    font-family: Dosis-ExtraLight;
+    color: white;
+    font-weight: bold;
+}
+
+.niñaBrinco{
+    width: 100%;
+}
+.centrarTxt{
+    font-family: Dosis-SemiBold;
+    font-size: 1.3em;
+    text-align: center;
+}
+.lineas{
+    margin-top: -4%;
+    margin-bottom: 6%;
+    width: 30%;
+}
+.lineasTit{
+    margin-top: -1%;
+    margin-bottom: 3%;
+    width: 12%;
+}
+.lineasT{
+    margin-top: 0%;
+    margin-bottom: 2%;
+    width: 18%;
+}
+.fondoBlanco{
+    
+    background-color: white;
+}
+.fondoAzul{
+    background-color: rgb(241,244,255);
+  
+}
+.fondoAz{
+    background-color: rgb(0,137,210);
+}
+.fondoAm{
+    background-color: rgb(255,188,0);
+}
+.fondoRo{
+    background-color: rgb(193,18,113);
+}
+.fondoBeneficiarios{
+    background: center ;
+    background-position: center;
+    background-image: url('rectangulo-gradiant.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: white;
+}
+.cuadradoCurvo{
+    background: center ;
+    background-position: center;
+    background-image: url('rectangulo-azul.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    transform: scaleX(-1);
+}
+
+.lineaMorada{
+    height: 21em;
+    width: 100%;
+}
+
+.graficoNiñas{
+    width: 100%;
+}
+
+.checkCircle{
+    color: #73388C;
+}
+.anticon svg {
+    margin-bottom: .4em;
+}
+.beneficiarios{
+    font-size: 1.4em;
+    color: #868787;
+    
+}
+.quieroAyudar{
+    width: 100%;
+    font-size: 1.2em;
+    color: white;
+    background-color: #73388C;
+    border-radius: .8em;
+    border-color: transparent;
+}
+.quieroAyudar:hover{
+    color: white;
+    background-color: #c364ec;
+    border-radius: .8em;
+    border-color: transparent;
+}
+.verVideo{
+    width: 100%;
+    font-size: 1.2em;
+    border-radius: .8em;
+    color: #73388C;
+    background-color: transparent;
+    border-color: transparent;
+    box-shadow: 0 0 0 transparent;
+}
+.verVideo:hover{
+    color: white;
+    background-color: #c364ec;
+    border-radius: .8em;
+    border-color: transparent;
+}
+.banderaImg{
+    width: 100%;
+}
+
+@media (max-width: 1200px) {
+    .tituloContenido{
+        text-align: center;
+    }
+    .subtituloContenido{
+        text-align: center;
+    }
+    
+    .lineaMorada{
+        height: 100%;
+        width: 100%;
+    }
+    .imgDeportes > img{
+        position: relative;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        height: 0;
+        width: 0;
+    }
+}
+
+.ant-carousel .slick-slide {
+    text-align: center;
+    height: 100%;
+    line-height: 160px;
+    overflow: hidden;
+}
+
+.tituloCentrado{
+    text-align: center;
+    background-color: #ffffff;
+}
+.pNormal{
+    font-family: Dosis-Regular;
+    font-size: 1.3em;
+}
+.horariosDeportes{
+    font-size: 1.5em;
+    color: #FFBC00;
+    font-weight: bold;
+}
+.carr{
+    width: 100%;
+    border-radius: 8%;
+}
+.imgDeportes{
+    background-color: #fff;
+    height: 35em;
+    width: 40em;
+    border-radius: 8%;
+    overflow: hidden;
+    position: relative;
+    align-content: center;
+}
+.imgDeportes > img{
+    position: absolute;
+    left: -100%;
+    right: -100%;
+    top: -100%;
+    bottom: -100%;
+    margin: auto;
+    min-height: 100%;
+    max-width: 100%;
+}
+.deporteTitulo{
+    font-family: Montserrat-Regular;
+    font-size: 2.5em;
+    color: #73388C;
+    font-weight: bold;
+}
+.TituloG{
+    font-family: Dosis-SemiBold;
+    font-size: 2.5em;
+    color:#706C68;
+    font-weight:lighter;
+}
+.TituloAm{
+    font-family: Dosis-SemiBold;
+    font-size: 2.5em;
+    color:#FFB300;
+    font-weight:bold;
+}
+.TituloMo{
+    font-family: Dosis-SemiBold;
+    font-size: 2.5em;
+    color:#551586;
+    text-align: center;
+    font-weight:bold;
+    text-align: justify;
+    margin: 0 10%;
+}
+.TituloAz{
+    font-family: Dosis-SemiBold;
+    font-size: 2.5em;
+    color:#0480B7;
+    text-align: center;
+    font-weight:bold;
+    text-align: justify;
+    margin: 0 10%;
+
+}
+.TituloRo{
+    font-family: Dosis-SemiBold;
+    font-size: 2.5em;
+    color:#B10862;
+    font-weight:bold;
+}
+.TAm{
+    font-family: Dosis-SemiBold;
+    font-size: 1.8em;
+    color:#FFB300;
+    font-weight:bold;
+}
+.TAz{
+    font-family: Dosis-SemiBold;
+    font-size: 1.8em;
+    color:#0480B7;
+    font-weight:bold;
+}
+.TRo{
+    font-family: Dosis-SemiBold;
+    font-size: 1.8em;
+    color:#B10862;
+    font-weight:bold;
+   
+}
+.TituloGr{
+    font-family: Dosis-SemiBold;
+    font-size: 1.8em;
+    color:#706C68;
+    font-weight:bold;
+}
+.centrar{
+    text-align: center;
+}
+.TextGeneral{
+    font-family: Dosis-Regular;
+    font-size: 1.3em;
+    text-align: justify;
+    margin: 0 10%;
+}
+.TextGeneral2{
+    font-family: Dosis-Regular;
+    font-size: 1em;
+    text-align: justify;
+    margin: 0 10%;
+}
+.TCarrRo{
+    font-family: Dosis-SemiBold;
+    font-size: 3.5em;
+    color:#B10862;
+    font-weight:bold;
+    text-align: right;
+}
+.TCarrAm{
+    font-family: Dosis-SemiBold;
+    font-size: 3.5em;
+    color:#FFB300;
+    font-weight:bold;
+    text-align: right;
+}
+.TCarrAz{
+    font-family: Dosis-SemiBold;
+    font-size: 3.5em;
+    color:#0480B7;
+    font-weight:bold;
+    text-align: center;
+}
+.TextCarr{
+    font-family: Dosis-SemiBold;
+    font-size: 1.8em;
+    color:#706C68;
+    text-align: justify;
+}
+.Textdatos{
+    font-family: Dosis-SemiBold;
+    font-size: 1.7em;
+    color:#706C68;
+    text-align: left;
+}
+.Textdatos2{
+    font-family: Dosis-Light;
+    font-size: 1.12em;
+    color:#706C68;
+    text-align: left;
+}
+.margenes{
+    margin-top: 8%;
+}
+.margenImg{
+    margin-right: -6%;
+}
+.ali{
+    margin-left: 2%;
+    margin-right: -2%;
+}
+.ali2{
+    margin-left: -2%;
+    margin-right: +2%;
+}
+.margenesCar{
+    margin-top: 8%;
+    margin-bottom: 8%;
+}
+.imgHistoria{
+    width: 100%;
+}
+.imgHistoria2{
+    width: 100%;
+}
+.imgHistoriaInsta{
+    width: 130%;
+}
+.fondoFigurasAmarillas{
+    background: center ;
+    background-position: center;
+    background-image: url('fondo-amarillo2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: white;
+}
+
+.cardEscuelasAz{
+    border-radius: 2em;
+    box-shadow: 0 2px 20px 0 rgba(0, 137, 210, 0.253);
+    height: 430px;
+    margin-bottom: 10px;
+}
+.cardEscuelasAm{
+    border-radius: 2em;
+    height: 430px;
+    box-shadow: 0 2px 20px 0 rgba(255, 187, 0, 0.26);
+    margin-bottom: 10px;
+}
+.cardEscuelasRo{
+    border-radius: 2em;
+    height: 430px;
+    box-shadow: 0 2px 20px 0 rgba(193, 18, 114, 0.212);
+    margin-bottom: 10px;
+}
+
+/* #Media Queries
+================================================== */
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+    .ovalo{
+        width: 100%;
+    }
+    .logoinicio{
+        margin-top: -50px;
+        width: 50%;
+        margin-bottom: 20px; 
+    }
+
+    .logoBoton{
+        margin-left: 10%; 
+    }
+
+    .btnEmpezar{
+        width: 100%;
+        margin-left: 2%;
+        margin-bottom: 390px;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .ovalo{
+        width: 100%;
+    }
+    .logoinicio{
+        margin-top: -50px;
+        width: 50%;
+        margin-bottom: 20px; 
+    }
+
+    .logoBoton{
+        margin-left: 10%; 
+    }
+
+    .btnEmpezar{
+        width: 100%;
+        margin-left: 2%;
+        margin-bottom: 390px;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {  
+    .ovalo{
+        width: 100%;
+    }
+    .logoinicio{
+        margin-top: -50px;
+        width: 150px;
+        margin-bottom: 20px; 
+    }
+
+    .logoBoton{
+        margin-left: 10%; 
+    }
+
+    .btnEmpezar{
+        width: 200px;
+        margin-left: 2%;
+        margin-bottom: 390px;
+    }
+    
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+    .btnEmpezar{
+        width: 200px;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {  
+    .btnEmpezar{
+        width: 200px;
+    }
+}
+
+
+@media screen and (min-width: 300px) and (max-width: 700px) {   
+   .ovalo{
+       width: 100%;
+   }
+   .TituloAz{
+   margin-left: 1em;
+    }
+    .cardEscuelasAz{
+        height: 330px;
+    }
+    .cardEscuelasAm{
+        height: 330px;
+    }
+    .cardEscuelasRo{
+        height: 330px;
+    }
+    .textoEnNota, img {
+        width: 100% !important;
+    }
+}
+
+.ninaFondo{
+    width: 100%;
+}
+.tiempoPublicada{
+    font-family: Dosis-ExtraLight;
+    font-size: 1.1em;
+    color: #757575;
+}
+.categoriasBlog{
+    font-family: Dosis-ExtraBold;
+    font-size: 1em;
+    text-transform: uppercase;
+    color: #430d6e;
+    margin-bottom: 0px;
+}
+.tituloBlog{
+    font-family: Dosis-Bold;
+    font-size: 2em;
+    color: black;
+}
+.descripcionBlog{
+    font-family: Dosis-ExtraLight;
+    font-size: 1.2em;
+    color: black;
+}
+.cardBlog{
+    border-radius: 0.75em;
+    width: 350px;
+    height: 480px;
+    box-shadow: 0 2px 20px 0 rgba(17, 66, 158, 0.1);
+    transition: all 0.4s ease-out;
+    border: transparent;
+}
+
+.ant-card-cover img{
+    border-top-left-radius: 0.7em;
+    border-top-right-radius: 0.7em;
+}
+.fotoBlog{
+    border-radius: 0.5em;
+}
+
+.fotoBlogLista{
+    max-width: 250px;
+}
+.blogTitulo{
+    font-family: Dosis-ExtraBold;
+    font-size: 3.2em;
+}
+.totalBlog{
+    font-family:  Dosis-Light;
+}
+.letraCategorias{
+    font-family: Dosis-SemiBold;
+    font-size: 30px;
+}
+.categoriaNota{
+    font-family:  Dosis-ExtraBold;
+    text-transform: uppercase;
+    color: #620f78;
+}
+.tituloNota{
+    font-family:Dosis-SemiBold;
+    color: black;
+    font-size: 4em;
+}
+.fotoNotaEspecifica{
+    width: 60%;
+}
+.wrapper {
+    position: relative;
+    padding-top: 56.25%
+}
+  
+.player {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.textoEnNota{
+    width: 100%;
+}
+.imagenBlogRelacionado{
+    width: 100%;
+}
+.tituloBlogRelacionado{
+    font-family:Dosis-SemiBold;
+    color: #620f78;
+    text-transform: uppercase;
+    font-size: 1em;
+}
+.descripcionBlogRelacionado{
+    font-family:  Dosis-Bold;
+    text-transform: uppercase;
+    font-size: 0.7em;
+    margin-bottom: 5px;
+    
+}
+.noHayRelacionados{
+    font-family:  Dosis-Light;
+    font-size: 1.4em;
+}
+.ant-tabs-bar{
+    font-family:  Dosis-Bold;
+}
+.colorSISSA{
+    color: #706c68;
+}
+.colorSISSA:hover{
+    color: #302e2c;
+}

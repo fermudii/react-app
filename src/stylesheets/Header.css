@@ -1,0 +1,125 @@
+.iconosHeader{
+    color: white;
+    font-size: 1em;
+    font-weight: bold;
+}
+.btnLogIn{
+    margin-bottom: 0em;
+    background-color: #F6B451;
+    border-color: transparent;
+    border-radius: .8em;
+    color: white;
+    width: 114px;
+    font-family: Dosis-ExtraLight;
+    font-weight: bold;
+    
+}
+.btnBlog{
+    margin-bottom: 0em;
+    background-color: #440d70;
+    border-color: transparent;
+    border-radius: .8em;
+    color: white;
+    width: 114px;
+    font-family: Dosis-ExtraLight;
+    font-weight: bold;
+}
+.btnBlog:hover{
+    background-color: #360a5a;
+    border-color: transparent;
+    color: white;
+}
+.btnLogIn:hover{
+    background-color: #f89e18;
+    border-color: #F6B451;
+    color: white;
+}
+.btnSignIn{
+    margin-bottom: 0em;
+    font-family: Dosis-ExtraLight;
+    background-color: #AF417A;
+    border-color: transparent;
+    border-radius: .8em;
+    color: white;
+    font-weight: bold;
+}
+.btnSignIn:hover{
+    background-color: #c51c73;
+    border-color: #AF417A;
+    color: white;
+}
+.logo-simple{
+    position: absolute;
+}
+.logo-simple{
+    width: 20%;
+}
+
+@media (max-width: 1200px) {
+    .logo-color{
+        width: 40em;
+    }
+    .btnLogIn{
+        margin-bottom: 1em;
+    }
+    .btnSignIn{
+        margin-bottom: 1em;
+    }
+}
+@media (max-width: 983) {
+    .logo-color{
+        width: 0px;
+        height: 0px;
+    }
+    .logo-simple{
+        margin-top: -1.8em;
+        width: 50%;
+    }
+    
+}
+@media (max-width: 400px) {
+    .logo-color{
+        width: 0px;
+        height: 0px;
+    }
+    .logo-simple{
+        margin-top: -1.8em;
+        width: 70%;
+    }
+}
+
+@media screen and (min-width: 300px) and (max-width: 700px) {   
+    .btnLogIn{
+        margin-bottom: 1em;
+        width: 80%;
+        font-size: 1em;
+        text-align: left;
+    }
+    .btnSignIn{
+        margin-bottom: 1em;
+        width: 80%;
+        font-size: .9em;
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        text-align: left;
+    }
+}
+
+.logoImg{
+    height: 100%;
+    margin-top: 5px;
+    padding-bottom: 10px;
+}
+.FixedHeader{
+    position: fixed;
+    box-shadow: 0 2px 4px 0 #cccbca;
+    width: 100%;
+    z-index: 1000;
+}
+  
+.logo-responsive{
+    width: 100%;
+}
+.letrasMenuHeader{
+    font-size: 20px;
+}

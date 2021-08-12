@@ -1,0 +1,16 @@
+
+.login-form{
+    background-color: #275E9C;
+    background-image: -webkit-linear-gradient(205deg, #f8f8f8 60%, #FFBC00 40%);
+    min-height: 100vh;
+}
+
+.login-logo{
+    display:block;
+    margin:auto;
+    border-color:#f8f8f8;
+    border-width: .5em;
+    border-style: solid;
+    border-radius: 10%;
+
+}

@@ -1,0 +1,157 @@
+.tabStyle{
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+}
+
+.imagenElemento{
+	width: 100%;
+}
+.ant-tabs-bar {
+    border-color: transparent;
+    color: #4F68F6;
+}
+.ant-tabs-ink-bar{
+    background-color: #E01073;
+}
+.ant-tabs-nav{
+    color: #4F68F6;
+}
+.ant-tabs-nav .ant-tabs-tab:hover{
+    color: #E01073;
+}
+.ant-tabs-bar .ant-tabs-tab-active {
+    color: #E01073;
+}
+.cont{
+    margin-left: 5em;
+}
+.ant-tabs-nav-container{
+    font-size: 1.3em;
+}
+.tab{
+    background-color: white;
+}
+
+.logoImg{
+	height: 100%;
+}
+
+.PM-itemsDiv{
+	border: 1px solid #275E9C;
+	text-align: left;
+	border-radius: 1em;
+	padding: 8px 24px;
+	max-height: 80vh;
+	overflow: auto;
+	box-shadow: 10px 10px 7px 0px #ebe9e9;
+	background-color: #ececec86;
+}
+.header-list{
+	font-size: 1.5em;
+	color: #275E9C;
+}
+.pointer{
+	cursor: pointer;
+	font-size: 1.5em;
+	color: #275E9C;
+}
+.cardDetalle{
+	border: 1px solid #275E9C;
+	border-radius: 1em;
+	background-color: #ececec86;
+}
+
+.logoEmpleado{
+	border-radius: 50%;
+	width: 100%;
+}
+
+.nombreEmpleado{
+	font-size: 1.3em;
+	font-weight: bold;
+}
+.iconEmpleado{
+	color: #275E9C;
+	font-size: 1.2em;
+}
+.infoEmpleado{
+  	font-size: 1.2em;
+}
+
+.editorHTML{
+	background-color: #1615167c;
+	border-radius: 2em;
+}
+.rdw-colorpicker-modal{
+  	width: 20em;
+}
+.rdw-link-modal{
+	width: 20em;
+	height: 22em;
+}
+.rdw-embedded-modal{
+	width: 20em;
+	height: 22em;
+}
+
+.editarElemento{
+  	padding: 8px 24px;
+}
+.iconoEditar{
+  	vertical-align: .05em
+}
+
+.image-item {
+	display: flex;
+	margin: 10px 0;
+}
+.image-item__btn-wrapper {
+	display: flex;
+	flex-direction: column;
+	margin-left: 10px;
+}
+
+
+.cardNuevaNota{
+    border: 1px solid #275E9C;
+    border-radius: 2em;
+    background-color: #ececec86;
+    text-align: left;
+}
+
+.btnCrearNota{
+    width: 100%;
+    margin-top: 4px;
+    background-color: #275E9C;
+    border-color: #275E9C;
+    color: white;
+    border-radius: 1em;
+}
+.btnCrearNota:hover{
+    color: #275E9C;
+    border-color: #275E9C;
+}
+.DivList{
+    text-align: left;
+    overflow: auto;
+	height: 73.1vh;
+}
+.divCard{
+	background-color: #ececec86;
+    border: 1px solid #275E9C;
+    border-radius: 2em;
+    box-shadow: 10px 10px 7px 0px #ebe9e9;
+}
+.imgDiv{
+	border-radius: 2em;
+	box-shadow: 0px 10px 21px -11px #000000bf;
+	height: 15em;
+}
+.icon{
+    font-size: 2em;
+}
+.editorHTML {
+    background-color: #e2dede6b;
+    border-radius: 2em;
+}

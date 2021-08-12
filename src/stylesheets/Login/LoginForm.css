@@ -1,0 +1,39 @@
+
+.btnLogin{
+	background-color: #fff;
+    border-color: #af417a;
+	color: white;
+	background-color: #af417a;
+	border-radius: 0.5em;
+}
+
+.btnLogin:hover{
+	border-color: #8f3363;
+	color: white;
+	background-color: #8f3363;
+}
+
+.btnLogin:active{
+	border-color: #8f3363;
+	color: white;
+	background-color: #8f3363;
+}
+
+.btnLogin:focus{
+	border-color: #8f3363;
+	color: white;
+	background-color: #8f3363;
+}
+
+.btnCenter{
+	text-align: center;
+}
+
+
+.has-error .ant-form-explain{
+	color: #000000;
+    font-weight: bold;
+}
+
+
+    
